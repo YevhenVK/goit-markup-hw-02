@@ -1,5 +1,70 @@
 .body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-  background: #ffffff;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Навигацыя */
+.navigation :hover,
+.navigation :focus {
+  color: rgba(33, 150, 243, 1);
+}
+.navigation,
+.contact-list,
+.nav__list {
+  display: flex;
+  list-style-type: none;
+}
+.logo {
+  color: #2196f3;
+}
+.nav-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+  padding-top: 19px;
+}
+.link-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: black;
+  text-decoration: none;
+  margin: 50px;
+}
+.mail,
+.tel {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav__list {
+  padding-top: 27px;
+  padding-left: 93px;
+  padding-right: 331px;
+}
+
+.contact-list {
+  padding-top: 27px;
+}
+.mail {
+  padding-right: 50px;
+}
+.tel {
 }
