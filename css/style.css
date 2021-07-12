@@ -7,6 +7,10 @@
   margin: 0;
 }
 /* Навигацыя */
+.header {
+  width: 1615px;
+  height: 80px;
+}
 .navigation :hover,
 .navigation :focus {
   color: rgba(33, 150, 243, 1);
@@ -67,4 +71,30 @@
   padding-right: 50px;
 }
 .tel {
+}
+/* Герой */
+.container-heroe {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.heroe-1 {
+  background-color: #2f303a;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 200px 0 280px 0;
+  color: #ffffff;
+}
+
+.button {
 }
