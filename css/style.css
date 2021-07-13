@@ -1,8 +1,10 @@
 .body {
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
-
+* {
+  padding: 0;
+  margin: 0;
+}
 /* Навигация */
 .header {
   width: 1600px;
@@ -18,6 +20,7 @@
 .contact-list,
 .nav__list {
   list-style-type: none;
+  text-decoration: none;
 }
 
 .logo {
@@ -36,7 +39,7 @@
   padding-top: 19px;
 }
 .link-item {
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -48,7 +51,7 @@
 .mail,
 .tel {
   color: #757575;
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -64,8 +67,6 @@
 /* Футер */
 .footer-page {
   background-color: #2f303a;
-  text-decoration: none;
-  text-align: left;
 }
 .footer-logo {
   font-family: Raleway;
@@ -81,9 +82,10 @@
 }
 .address-title {
   text-align: start;
+  text-decoration: none;
 }
 .address-text {
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
