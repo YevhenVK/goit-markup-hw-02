@@ -1,16 +1,56 @@
-.body {
+body {
   color: #212121;
   background-color: #e5e5e5;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
-
 .list {
   list-style: none;
 }
-.site-nav {
+
+.link {
+  color: #212121;
+  text-decoration: none;
 }
 
-.contact {
+.footer-contact .link:focus,
+.footer-contact .link:hover,
+.site-nav .link:focus,
+.site-nav .link:hover,
+.contact .link:focus,
+.contact .link:hover {
+  color: #2196f3;
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo > span {
+  color: rgba(33, 150, 243, 1);
+}
+
+.site-nav {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact .link {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .filter {
@@ -18,4 +58,25 @@
 }
 
 .filter-button {
+  cursor: pointer;
+}
+
+.footer-page {
+  background-color: #2f303a;
+}
+.footer-contact .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.address-text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
