@@ -11,7 +11,10 @@ body {
   color: #212121;
   text-decoration: none;
 }
-
+.address-text:focus,
+.address-text:hover,
+.logo:hover,
+.logo:focus,
 .footer-contact .link:focus,
 .footer-contact .link:hover,
 .site-nav .link:focus,
@@ -54,11 +57,17 @@ body {
 }
 
 .filter {
-  text-align: center;
+  display: flex;
 }
 
 .filter-button {
   cursor: pointer;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .footer-page {
@@ -79,4 +88,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.down {
+  color: #ffffff;
 }
