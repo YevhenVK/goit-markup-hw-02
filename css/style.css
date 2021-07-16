@@ -19,6 +19,24 @@ body {
 .list {
   list-style: none;
 }
+/* Header  */
+.contact .link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 /* Main */
 .post {
   background-color: var(--secondary-background-color);
@@ -114,6 +132,19 @@ body {
 .contact .link:hover {
   color: var(--accent-color);
 }
+.post-button:focus,
+.post-button:hover,
+.filter-button:focus,
+.filter-button:hover {
+  background-color: var(--accent-color);
+}
+.post-button:focus,
+.post-button:hover,
+.filter-button:focus,
+.filter-button:hover {
+  color: var(--secondary-text-color);
+}
+
 /* Logo */
 .logo {
   color: var(--logo-color);
@@ -130,65 +161,6 @@ body {
   color: var(--accent-color);
 }
 
-.site-nav {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.site-nav .link.current {
-  color: var(--accent-color);
-}
-
-.contact .link {
-  color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.filter {
-  display: flex;
-}
-
-.filter-button {
-  cursor: pointer;
-  width: 145px;
-  height: 38px;
-  left: 712px;
-  top: 174px;
-  background: var(--background-button-color);
-  border-radius: 4px;
-}
-.filter-button.current {
-  background-color: var(--accent-color);
-  color: var(--secondary-text-color);
-}
-.content-name {
-  color: var(--title-text-color);
-}
-.post-button:focus,
-.post-button:hover,
-.filter-button:focus,
-.filter-button:hover {
-  background-color: var(--accent-color);
-}
-.post-button:focus,
-.post-button:hover,
-.filter-button:focus,
-.filter-button:hover {
-  color: var(--secondary-text-color);
-}
-.footer-contact .link {
-  color: var(--secondary-address-color);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
 /* Footer */
 .footer-page {
   background-color: var(--secondary-background-color);
@@ -204,4 +176,43 @@ body {
 }
 .down {
   color: var(--secondary-text-color);
+}
+.footer-contact .link {
+  color: var(--secondary-address-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+/* Section one */
+.filter {
+  display: flex;
+}
+.filter-button {
+  cursor: pointer;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  background: var(--background-button-color);
+  border-radius: 4px;
+}
+.filter-button.current {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+.content-name {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.content-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
