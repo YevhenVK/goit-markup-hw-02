@@ -127,7 +127,7 @@ body {
   color: var(--secondary-text-color);
 }
 .footer-page {
-  background-color: #2f303a;
+  background-color: var(--secondary-background-color);
 }
 .footer-contact .link {
   color: var(--secondary-address-color);
