@@ -71,12 +71,14 @@ body {
 /* Container */
 .container-title {
   color: var(--title-text-color);
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .container-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -86,6 +88,20 @@ body {
   color: var(--title-text-color);
 }
 .occupation h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Container-inner */
+.container-inner {
+  color: var(--title-text-color);
+  background-color: var(--background-team-color);
+}
+.container-inner h2 {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -103,21 +119,11 @@ body {
   letter-spacing: 0.03em;
 }
 .team.list p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-}
-/* Container-inner */
-.container-inner h2 {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.container-inner {
-  color: var(--title-text-color);
-  background-color: var(--background-team-color);
 }
 .container-inner p {
   color: var(--primary-text-color);
@@ -160,7 +166,7 @@ body {
   color: var(--logo-color);
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -201,8 +207,8 @@ body {
   display: flex;
 }
 .button-line {
-  line-height: 0.29;
   background-color: var(--background-button-color);
+  line-height: 0.29;
   border-radius: 4px;
   top: 174px;
 }
