@@ -195,31 +195,37 @@ body {
 }
 
 /* Portfolio */
-/* Section one */
 .filter {
   display: flex;
 }
-.filter-button {
+.button-line {
+  line-height: 0.29;
   background-color: var(--background-button-color);
   border-radius: 4px;
-  height: 38px;
-  font-family: inherit;
+  top: 174px;
+}
+.filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
+  font-family: inherit;
+  letter-spacing: 0.03em;
 }
 .filter-button.current {
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .filter-button:focus,
 .filter-button:hover {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .content-name {
   color: var(--title-text-color);
